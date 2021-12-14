@@ -71,6 +71,12 @@ function createPokemonCard(pokemon) {
 
 fetchPokemons();
 
+for i in range (0,int(len(A)/10)):
+    numbersSum = sum(A[i*10:(i+1)*10])/10
+    print(numbersSum)
+    B.append(numbersSum)
+print(B)
+
 
 
 
